@@ -15,7 +15,6 @@ jobs:
                 --region us-east-1
 # Sequential workflow
 workflows:
-  # Name the workflow
   myWorkflow:
       jobs:
         - create_infrastructure
